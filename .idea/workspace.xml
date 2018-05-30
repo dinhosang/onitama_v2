@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/factories/PieceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/pieces/RedSensei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/pieces/RedStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/factories/PieceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/models/pieces/BlueSensei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/models/pieces/BlueStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/models/pieces/RedSensei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/classes/models/pieces/RedStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/test/classes/modelsTest/piecesTest/PieceTest$1mockRedStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/models/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/modelsTest/PieceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/models/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/models/pieces/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/modelsTest/PieceTest$1mockRedStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/modelsTest/PieceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/modelsTest/piecesTest/PieceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/factories/PieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -32,7 +35,7 @@
       <file leaf-file-name="PieceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
+            <state relative-caret-position="130">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,57 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlueStudent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#81#82#0" expanded="true" />
-                <element signature="e#101#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlueSensei.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#93#94#0" expanded="true" />
-                <element signature="e#113#114#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/factories/PieceFactory.java">
+      <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PieceFaction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/constants/PieceFaction.java">
+      <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/constants/PieceType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -437,6 +406,9 @@
         <option value="$PROJECT_DIR$/src/main/models/pieces/RedSensei.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java" />
+        <option value="$PROJECT_DIR$/src/test/factoriesTest/PieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -483,6 +455,13 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -496,7 +475,7 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="factoriesTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -630,10 +609,12 @@
     <history-entry file="PieceTest - 2018.05.30 at 20h 22m 58s.xml">
       <configuration name="PieceTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PieceTest - 2018.05.30 at 21h 03m 10s.xml">
+      <configuration name="PieceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -643,12 +624,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32900432" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -697,13 +678,6 @@
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/constants/PieceType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/constants/PieceFaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -748,22 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#331#332#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -788,10 +746,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factories/PieceFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/constants/PieceType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
