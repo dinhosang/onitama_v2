@@ -1,4 +1,4 @@
-package models;
+package models.pieces;
 
 import constants.PieceFaction;
 import constants.PieceType;

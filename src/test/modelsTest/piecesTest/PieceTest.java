@@ -1,8 +1,8 @@
-package modelsTest;
+package modelsTest.piecesTest;
 
 import constants.PieceFaction;
 import constants.PieceType;
-import models.Piece;
+import models.pieces.Piece;
 import org.junit.Before;
 import org.junit.Test;
 
