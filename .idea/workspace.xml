@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/constants/GameMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/constants/GameMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,65 +23,39 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#createPieces#0;class#ConcurrentPieceFactory#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="1650">
+              <caret line="110" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="110" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#803#804#0" expanded="true" />
-                <element signature="e#881#882#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PieceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameMode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#346#347#0" expanded="true" />
-                <element signature="e#376#377#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,8 +66,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -407,8 +382,10 @@
         <option value="$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java" />
         <option value="$PROJECT_DIR$/src/test/factoriesTest/PieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/constants/GameMode.java" />
-        <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" />
       </list>
     </option>
   </component>
@@ -425,6 +402,8 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -448,29 +427,7 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="pieces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -508,8 +465,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,12 +474,13 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="constants" />
-      <recent name="models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="factories" />
+      <recent name="constants" />
+      <recent name="models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -539,11 +495,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests">
+  <component name="RunManager" selected="JUnit.ConcurrentPieceFactoryTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -554,8 +510,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess3000Requests" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConcurrentPieceFactoryTest.createsFourBlueStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoriesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="factoriesTest" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="createsFourBlueStudents" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -566,7 +545,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess4000Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest.createsFourRedStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -577,8 +556,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess4000Requests" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="createsFourRedStudents" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -589,7 +568,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess8000Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest.createsOneBlueSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -600,8 +579,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess8000Requests" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="createsOneBlueSensei" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -612,7 +591,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentPieceFactoryTest.testTimeTakenToProcess1000Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest.createsOneRedSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -623,31 +602,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="testTimeTakenToProcess1000Requests" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="NonConcurrentPieceFactoryTest.testTimeTakenToProcess100Requests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoriesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="testTimeTakenToProcess100Requests" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="createsOneRedSensei" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -697,19 +653,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.testTimeTakenToProcess100Requests" />
-      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.testTimeTakenToProcess1000Requests" />
-      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess4000Requests" />
-      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess8000Requests" />
-      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourBlueStudents" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneBlueSensei" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourRedStudents" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" />
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess8000Requests" />
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess4000Requests" />
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.testTimeTakenToProcess1000Requests" />
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.testTimeTakenToProcess100Requests" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourRedStudents" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneBlueSensei" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourBlueStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -727,35 +683,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess8000Requests - 2018.05.31 at 01h 31m 10s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess8000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 42s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 31m 57s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 44s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 32m 22s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 46s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 32m 26s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 47s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 32m 31s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 49s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 32m 34s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 17s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 32m 54s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 22s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 35m 50s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 42s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 37m 14s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 45s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess3000Requests - 2018.05.31 at 01h 38m 01s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess3000Requests" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 48s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -776,7 +732,6 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
       <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="3" weight="0.32900432" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -784,12 +739,13 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="3" weight="0.32900432" />
+      <window_info anchor="bottom" id="Find" order="6" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -801,6 +757,147 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gradle/vcsWorkingDirs/gc.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -837,10 +934,6 @@
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -849,10 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,11 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -872,11 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#81#82#0" expanded="true" />
-            <element signature="e#101#102#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,11 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#113#114#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,8 +980,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="150">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="131" lean-forward="true" selection-start-line="16" selection-end-line="131" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -923,22 +1007,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="1650">
+          <caret line="110" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="110" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+        <state relative-caret-position="243">
+          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#createPieces#0;class#ConcurrentPieceFactory#0" />
           </folding>
         </state>
       </provider>
