@@ -13,6 +13,8 @@ public class NonConcurrentPieceFactory {
 
     private GameMode mode;
     private HashMap<PieceFaction,ArrayList<Piece>> piecesContainer;
+    private long startTime;
+    private long endTime;
 
     public NonConcurrentPieceFactory(){}
 
@@ -23,8 +25,26 @@ public class NonConcurrentPieceFactory {
 
     public void createPieces() {
 
-        if(this.mode == GameMode.STANDARD){
+        if(this.mode == GameMode.STANDARD) {
             setupStandardModePieceCreation();
+        } else if (this.mode == GameMode.TESTSTANDARD) {
+//            startTime = System.currentTimeMillis();
+            startTime = System.nanoTime();
+
+            for(int timesTested = 0; timesTested < 1000; timesTested++) {
+                setupStandardModePieceCreation();
+
+//                Set<PieceFaction> keys = this.piecesContainer.keySet();
+//                for(PieceFaction faction : keys) {
+//                    this.piecesContainer.get(faction).clear();
+//                }
+            }
+
+//            endTime = System.currentTimeMillis();
+            endTime = System.nanoTime();
+
+            System.out.println(endTime - startTime + " Nano-Seconds");
+
         } else {
             //            could try throwing a homemade exception for incorrect game mode?
         }
@@ -38,11 +58,11 @@ public class NonConcurrentPieceFactory {
             piecesRequired.put(PieceType.STUDENT, 4);
             piecesRequired.put(PieceType.SENSEI, 1);
 
-            beingCreateProcess(faction, piecesRequired);
+            beginCreateProcess(faction, piecesRequired);
         }
     }
 
-    private void beingCreateProcess(PieceFaction faction, HashMap<PieceType, Integer> piecesRequired) {
+    private void beginCreateProcess(PieceFaction faction, HashMap<PieceType, Integer> piecesRequired) {
         Set<PieceType> keys = piecesRequired.keySet();
 
         for(PieceType type : keys) {

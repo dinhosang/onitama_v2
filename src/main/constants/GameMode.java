@@ -2,5 +2,6 @@ package constants;
 
 public enum GameMode {
 
-    STANDARD
+    STANDARD,
+    TESTSTANDARD
 }

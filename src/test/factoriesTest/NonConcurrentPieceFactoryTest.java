@@ -28,6 +28,25 @@ public class NonConcurrentPieceFactoryTest {
     }
 
     @Test
+    public void consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K(){
+        factoryNC.setFactory(GameMode.TESTSTANDARD, piecesContainer);
+
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+
+        assertEquals(50000, piecesContainer.get(PieceFaction.BLUE).size());
+    }
+
+    @Test
     public void piecesContainerStartsEmpty(){
         assertEquals(0, piecesContainer.get(PieceFaction.BLUE).size());
     }
