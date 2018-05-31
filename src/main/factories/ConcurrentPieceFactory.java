@@ -33,20 +33,12 @@ public class ConcurrentPieceFactory {
             setupStandardModePieceCreation();
         } else if (this.mode == GameMode.TESTSTANDARD) {
             long startTime = System.currentTimeMillis();
-//            long startTime = System.nanoTime();
 
             for(int timesTested = 0; timesTested < 1000; timesTested++) {
                 setupStandardModePieceCreation();
-
-//                Set<PieceFaction> keys = this.piecesContainer.keySet();
-//                for(PieceFaction faction : keys) {
-//                    this.piecesContainer.get(faction).clear();
-//                }
             }
 
             long endTime = System.currentTimeMillis();
-//            long endTime = System.nanoTime();
-
             System.out.println(endTime - startTime + "ms");
 
         } else {
