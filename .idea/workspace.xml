@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -61,9 +58,10 @@
       <file leaf-file-name="PieceSubClassesTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="333">
+              <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#621#622#0" expanded="true" />
                 <element signature="e#643#644#0" expanded="true" />
                 <element signature="e#827#828#0" expanded="true" />
@@ -711,9 +709,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 06h 11m 54s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 06h 13m 47s.xml">
       <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
@@ -741,10 +736,12 @@
     <history-entry file="PieceSubClassesTest - 2018.05.31 at 19h 42m 08s.xml">
       <configuration name="PieceSubClassesTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PieceSubClassesTest - 2018.05.31 at 19h 42m 13s.xml">
+      <configuration name="PieceSubClassesTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -1053,9 +1050,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        <state relative-caret-position="333">
+          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#621#622#0" expanded="true" />
             <element signature="e#643#644#0" expanded="true" />
             <element signature="e#827#828#0" expanded="true" />
