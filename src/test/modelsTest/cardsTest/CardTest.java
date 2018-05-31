@@ -19,7 +19,7 @@ public class CardTest {
     @Before
     public void before() {
 
-        ArrayList<HashMap<CoordinateAxis, Integer>> moves;
+        ArrayList<HashMap<CoordinateAxis, Integer>> cardMoves;
         HashMap<CoordinateAxis, Integer> move1;
         HashMap<CoordinateAxis, Integer> move2;
 
@@ -32,13 +32,13 @@ public class CardTest {
         move2.put(CoordinateAxis.X, -3);
         move2.put(CoordinateAxis.Y, 0);
 
-        moves = new ArrayList<>(Arrays.asList(move1, move2));
+        cardMoves = new ArrayList<>(Arrays.asList(move1, move2));
 
 
         class mockDragon extends Card {
 
             private mockDragon() {
-                super("Dragon", PieceFaction.RED, moves);
+                super("Dragon", PieceFaction.RED, cardMoves);
             }
         }
 
@@ -53,6 +53,27 @@ public class CardTest {
     @Test
     public void canReturnFaction() {
         assertEquals(PieceFaction.RED, this.dragon.getFaction());
+    }
+
+    @Test
+    public void canAccessMovesList() {
+        ArrayList<HashMap<CoordinateAxis, Integer>> movesOnCard = this.dragon.getMoves();
+        assertEquals(2, movesOnCard.size());
+    }
+
+    @Test
+    public void movesListReturnedFromCardIsACopyAndCannotModifyOriginal() {
+        ArrayList<HashMap<CoordinateAxis, Integer>> copyMovesOnCard = this.dragon.getMoves();
+
+        HashMap<CoordinateAxis, Integer> move3;
+        move3 = new HashMap<>();
+
+        move3.put(CoordinateAxis.X, 0);
+        move3.put(CoordinateAxis.Y, 0);
+        copyMovesOnCard.add(move3);
+
+        assertEquals(3, copyMovesOnCard.size());
+        assertEquals(2, this.dragon.getMoves().size());
     }
 
 

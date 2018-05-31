@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/constants/CoordinateAxis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/cards/Card.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="CardTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="54" column="58" lean-forward="true" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+            <state relative-caret-position="382">
+              <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#476#477#0" expanded="true" />
@@ -42,11 +42,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Card.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="individualCardsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Card.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/models/cards/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="352">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
@@ -75,8 +87,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -397,8 +409,9 @@
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java" />
         <option value="$PROJECT_DIR$/src/main/constants/CoordinateAxis.java" />
-        <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/cards/Card.java" />
+        <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" />
       </list>
     </option>
   </component>
@@ -539,7 +552,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CardTest.canReturnFaction">
+  <component name="RunManager" selected="JUnit.CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -589,20 +602,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PieceSubClassesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.movesListReturnedFromCardIsACopy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modelsTest.piecesTest.*" />
+          <option name="PATTERN" value="modelsTest.cardsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.piecesTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.piecesTest.PieceSubClassesTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
+      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.CardTest" />
+      <option name="METHOD_NAME" value="movesListReturnedFromCardIsACopy" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -612,19 +625,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="PieceSubClassesTest.redSenseiIsNotBlueAndNotStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modelsTest.piecesTest.*" />
+          <option name="PATTERN" value="modelsTest.cardsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.piecesTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.piecesTest.PieceSubClassesTest" />
-      <option name="METHOD_NAME" value="redSenseiIsNotBlueAndNotStudent" />
+      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
+      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.CardTest" />
+      <option name="METHOD_NAME" value="movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -697,19 +710,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PieceSubClassesTest" />
-      <item itemvalue="JUnit.PieceSubClassesTest.redSenseiIsNotBlueAndNotStudent" />
       <item itemvalue="JUnit.PieceTest" />
       <item itemvalue="JUnit.CardTest" />
       <item itemvalue="JUnit.CardTest.canReturnFaction" />
+      <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopy" />
+      <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CardTest.canReturnFaction" />
+        <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
         <item itemvalue="JUnit.CardTest" />
+        <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopy" />
+        <item itemvalue="JUnit.CardTest.canReturnFaction" />
         <item itemvalue="JUnit.PieceTest" />
-        <item itemvalue="JUnit.PieceSubClassesTest" />
-        <item itemvalue="JUnit.PieceSubClassesTest.redSenseiIsNotBlueAndNotStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -727,27 +740,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 06h 35m 09s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 06h 36m 56s.xml">
-      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 06h 37m 28s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.05.31 at 06h 37m 38s.xml">
-      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceSubClassesTest - 2018.05.31 at 19h 35m 56s.xml">
-      <configuration name="PieceSubClassesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceSubClassesTest_redSenseiIsNotBlueAndNotStudent - 2018.05.31 at 19h 37m 06s.xml">
-      <configuration name="PieceSubClassesTest.redSenseiIsNotBlueAndNotStudent" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PieceSubClassesTest - 2018.05.31 at 19h 42m 08s.xml">
-      <configuration name="PieceSubClassesTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="PieceSubClassesTest - 2018.05.31 at 19h 42m 13s.xml">
       <configuration name="PieceSubClassesTest" configurationId="JUnit" />
     </history-entry>
@@ -757,6 +749,27 @@
     <history-entry file="CardTest - 2018.05.31 at 23h 21m 10s.xml">
       <configuration name="CardTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CardTest_canReturnFaction - 2018.05.31 at 23h 25m 45s.xml">
+      <configuration name="CardTest.canReturnFaction" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest - 2018.05.31 at 23h 40m 27s.xml">
+      <configuration name="CardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest_movesListReturnedFromCardIsACopy - 2018.05.31 at 23h 43m 51s.xml">
+      <configuration name="CardTest.movesListReturnedFromCardIsACopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest_movesListReturnedFromCardIsACopy - 2018.05.31 at 23h 44m 12s.xml">
+      <configuration name="CardTest.movesListReturnedFromCardIsACopy" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest - 2018.05.31 at 23h 44m 22s.xml">
+      <configuration name="CardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest - 2018.05.31 at 23h 44m 31s.xml">
+      <configuration name="CardTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CardTest_movesListReturnedFromCardIsACopyAndCannotModifyOriginal - 2018.05.31 at 23h 47m 08s.xml">
+      <configuration name="CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
@@ -764,18 +777,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32900432" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -1100,10 +1113,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="54" column="58" lean-forward="true" selection-start-line="54" selection-start-column="58" selection-end-line="54" selection-end-column="58" />
+        <state relative-caret-position="382">
+          <caret line="64" column="71" selection-start-line="64" selection-start-column="71" selection-end-line="64" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
@@ -1116,16 +1143,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Card.java">
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="349">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
           </folding>
         </state>
       </provider>
