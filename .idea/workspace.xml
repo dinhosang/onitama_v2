@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="-257">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1166">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,14 +44,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="189">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createPieces#0;class#ConcurrentPieceFactory#0" />
+                <element signature="e#995#1068#0" />
               </folding>
             </state>
           </provider>
@@ -52,8 +60,8 @@
       <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="110" />
+            <state relative-caret-position="148">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -383,8 +391,8 @@
         <option value="$PROJECT_DIR$/src/test/factoriesTest/PieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/constants/GameMode.java" />
         <option value="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" />
       </list>
     </option>
@@ -495,7 +503,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConcurrentPieceFactoryTest">
+  <component name="RunManager" selected="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -522,7 +530,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ConcurrentPieceFactoryTest.createsFourBlueStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -534,53 +542,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="factoriesTest" />
       <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="createsFourBlueStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConcurrentPieceFactoryTest.createsFourRedStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoriesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="createsFourRedStudents" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConcurrentPieceFactoryTest.createsOneBlueSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoriesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="createsOneBlueSensei" />
+      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -604,6 +566,52 @@
       <option name="PACKAGE_NAME" value="factoriesTest" />
       <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
       <option name="METHOD_NAME" value="createsOneRedSensei" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NonConcurrentPieceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoriesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="factoriesTest" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoriesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="factoriesTest" />
+      <option name="MAIN_CLASS_NAME" value="factoriesTest.NonConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -653,19 +661,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourBlueStudents" />
-      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneBlueSensei" />
-      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourRedStudents" />
       <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
       <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
+      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+      <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
         <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
+        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest" />
         <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
-        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourRedStudents" />
-        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneBlueSensei" />
-        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsFourBlueStudents" />
       </list>
     </recent_temporary>
   </component>
@@ -683,35 +691,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 42s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 12m 45s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 44s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 13m 33s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 46s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 13m 37s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 47s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 14m 39s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 58m 49s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 05h 15m 24s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 17s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 05h 15m 50s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 22s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 16m 20s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 42s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 05h 16m 32s.xml">
+      <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 45s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="ConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 05h 17m 33s.xml">
+      <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_canFillPiecesContainerWithBluePieces - 2018.05.31 at 04h 59m 48s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.canFillPiecesContainerWithBluePieces" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 05h 17m 47s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -753,7 +761,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -988,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1935">
-          <caret line="131" lean-forward="true" selection-start-line="16" selection-end-line="131" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1007,18 +1005,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="110" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="148">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1027,12 +1015,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="189">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#createPieces#0;class#ConcurrentPieceFactory#0" />
+            <element signature="e#995#1068#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-257">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>

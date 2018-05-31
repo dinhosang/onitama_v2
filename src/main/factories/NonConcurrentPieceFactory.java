@@ -26,8 +26,8 @@ public class NonConcurrentPieceFactory {
         if(this.mode == GameMode.STANDARD) {
             setupStandardModePieceCreation();
         } else if (this.mode == GameMode.TESTSTANDARD) {
-//            long startTime = System.currentTimeMillis();
-            long startTime = System.nanoTime();
+            long startTime = System.currentTimeMillis();
+//            long startTime = System.nanoTime();
 
             for(int timesTested = 0; timesTested < 1000; timesTested++) {
                 setupStandardModePieceCreation();
@@ -38,8 +38,8 @@ public class NonConcurrentPieceFactory {
 //                }
             }
 
-//            long endTime = System.currentTimeMillis();
-            long endTime = System.nanoTime();
+            long endTime = System.currentTimeMillis();
+//            long endTime = System.nanoTime();
 
             System.out.println(endTime - startTime + " Nano-Seconds");
 

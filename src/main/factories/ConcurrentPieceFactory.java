@@ -29,8 +29,8 @@ public class ConcurrentPieceFactory {
         if(this.mode == GameMode.STANDARD) {
             setupStandardModePieceCreation();
         } else if (this.mode == GameMode.TESTSTANDARD) {
-//            long startTime = System.currentTimeMillis();
-            long startTime = System.nanoTime();
+            long startTime = System.currentTimeMillis();
+//            long startTime = System.nanoTime();
 
             for(int timesTested = 0; timesTested < 1000; timesTested++) {
                 setupStandardModePieceCreation();
@@ -41,8 +41,8 @@ public class ConcurrentPieceFactory {
 //                }
             }
 
-//            long endTime = System.currentTimeMillis();
-            long endTime = System.nanoTime();
+            long endTime = System.currentTimeMillis();
+//            long endTime = System.nanoTime();
 
             System.out.println(endTime - startTime + " Nano-Seconds");
 
@@ -61,7 +61,7 @@ public class ConcurrentPieceFactory {
 
                 Runnable pieceCreator;
 
-                if(piecesCreated != 3) {
+                if(piecesCreated != 2) {
                     pieceCreator = new ConcurrentPieceCreator(faction, PieceType.STUDENT);
                 } else {
                     pieceCreator = new ConcurrentPieceCreator(faction, PieceType.SENSEI);
@@ -88,7 +88,7 @@ public class ConcurrentPieceFactory {
         private PieceFaction    faction;
         private PieceType       type;
 
-        public ConcurrentPieceCreator(PieceFaction faction, PieceType type) {
+        private ConcurrentPieceCreator(PieceFaction faction, PieceType type) {
             this.faction    = faction;
             this.type       = type;
         }
@@ -97,9 +97,7 @@ public class ConcurrentPieceFactory {
 
             Piece piece;
 
-            while(!lock.isHeldByCurrentThread()){
-                lock.lock();
-            }
+            lock.lock();
 
             if(faction == PieceFaction.RED){
                 switch(type){
@@ -120,12 +118,10 @@ public class ConcurrentPieceFactory {
                     case STUDENT:
                         piece = new BlueStudent();
                         piecesContainer.get(faction).add(piece);
-                        System.out.println("added student");
                         break;
                     case SENSEI:
                         piece = new BlueSensei();
                         piecesContainer.get(faction).add(piece);
-                        System.out.println("added sensei");
                         break;
                     default:
                         System.out.println("Invalid type");

@@ -5,7 +5,6 @@ import constants.PieceFaction;
 import factories.ConcurrentPieceFactory;
 import models.pieces.*;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -28,7 +27,7 @@ public class ConcurrentPieceFactoryTest {
         factoryNC.setFactory(GameMode.STANDARD, piecesContainer);
     }
 
-    @Ignore("waiting for normal tests to be built for first") @Test
+    @Test
     public void consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K(){
         factoryNC.setFactory(GameMode.TESTSTANDARD, piecesContainer);
 
