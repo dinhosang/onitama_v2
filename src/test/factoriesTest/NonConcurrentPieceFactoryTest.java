@@ -3,7 +3,7 @@ package factoriesTest;
 import constants.GameMode;
 import constants.PieceFaction;
 import factories.NonConcurrentPieceFactory;
-import models.pieces.Piece;
+import models.pieces.*;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -24,6 +24,7 @@ public class NonConcurrentPieceFactoryTest {
         piecesContainer.put(PieceFaction.RED, new ArrayList<>());
 
         factoryNC = new NonConcurrentPieceFactory();
+        factoryNC.setFactory(GameMode.STANDARD, piecesContainer);
     }
 
     @Test
@@ -33,8 +34,6 @@ public class NonConcurrentPieceFactoryTest {
 
     @Test
     public void canFillPiecesContainerWithBluePieces(){
-
-        factoryNC.setFactory(GameMode.STANDARD, piecesContainer);
         factoryNC.createPieces();
 
         assertEquals(5, piecesContainer.get(PieceFaction.BLUE).size());
@@ -42,11 +41,75 @@ public class NonConcurrentPieceFactoryTest {
 
     @Test
     public void canFillPiecesContainerWithRedPieces(){
-
-        factoryNC.setFactory(GameMode.STANDARD, piecesContainer);
         factoryNC.createPieces();
 
         assertEquals(5, piecesContainer.get(PieceFaction.RED).size());
     }
+
+    @Test
+    public void createsFourBlueStudents(){
+        factoryNC.createPieces();
+
+        ArrayList<Piece> bluePieces = piecesContainer.get(PieceFaction.BLUE);
+        int numberOfStudents = 0;
+
+        for(Piece piece : bluePieces){
+            if(piece instanceof BlueStudent){
+                numberOfStudents += 1;
+            }
+        }
+
+        assertEquals(4, numberOfStudents);
+    }
+
+    @Test
+    public void createsOneBlueSensei(){
+        factoryNC.createPieces();
+
+        ArrayList<Piece> bluePieces = piecesContainer.get(PieceFaction.BLUE);
+        int numberOfSensei = 0;
+
+        for(Piece piece : bluePieces){
+            if(piece instanceof BlueSensei){
+                numberOfSensei += 1;
+            }
+        }
+
+        assertEquals(1, numberOfSensei);
+    }
+
+    @Test
+    public void createsFourRedStudents(){
+        factoryNC.createPieces();
+
+        ArrayList<Piece> redPieces = piecesContainer.get(PieceFaction.RED);
+        int numberOfStudents = 0;
+
+        for(Piece piece : redPieces){
+            if(piece instanceof RedStudent){
+                numberOfStudents += 1;
+            }
+        }
+
+        assertEquals(4, numberOfStudents);
+    }
+
+    @Test
+    public void createsOneRedSensei(){
+        factoryNC.createPieces();
+
+        ArrayList<Piece> redPieces = piecesContainer.get(PieceFaction.RED);
+        int numberOfSensei = 0;
+
+        for(Piece piece : redPieces){
+            if(piece instanceof RedSensei){
+                numberOfSensei += 1;
+            }
+        }
+
+        assertEquals(1, numberOfSensei);
+    }
+
+
 
 }
