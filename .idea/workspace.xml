@@ -37,8 +37,8 @@
       <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="62">
+              <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,7 +49,7 @@
       <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1341">
+            <state relative-caret-position="95">
               <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -61,11 +61,8 @@
       <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-752">
+              <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -504,9 +501,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConcurrentPieceFactoryTest">
+  <component name="RunManager" selected="JUnit.All in OnitamaJavaVersion_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in OnitamaJavaVersion_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="ConcurrentPieceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
@@ -544,29 +558,6 @@
       <option name="PACKAGE_NAME" value="factoriesTest" />
       <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
       <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ConcurrentPieceFactoryTest.createsOneRedSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="factoriesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="factoriesTest" />
-      <option name="MAIN_CLASS_NAME" value="factoriesTest.ConcurrentPieceFactoryTest" />
-      <option name="METHOD_NAME" value="createsOneRedSensei" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -662,19 +653,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
       <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
       <item itemvalue="JUnit.NonConcurrentPieceFactoryTest" />
       <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
       <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+      <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
+        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest" />
         <item itemvalue="JUnit.ConcurrentPieceFactoryTest" />
         <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
         <item itemvalue="JUnit.NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
-        <item itemvalue="JUnit.NonConcurrentPieceFactoryTest" />
-        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.createsOneRedSensei" />
       </list>
     </recent_temporary>
   </component>
@@ -692,12 +683,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 06h 08m 44s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 06h 08m 53s.xml">
-      <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.05.31 at 06h 09m 02s.xml">
       <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
@@ -722,6 +707,12 @@
     <history-entry file="ConcurrentPieceFactoryTest - 2018.05.31 at 06h 13m 47s.xml">
       <configuration name="ConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 06h 35m 05s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NonConcurrentPieceFactoryTest - 2018.05.31 at 06h 35m 09s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
@@ -735,12 +726,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32756132" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32756132" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -762,7 +753,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -770,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -817,9 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,9 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1014,19 +996,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1341">
+        <state relative-caret-position="95">
           <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1034,10 +1006,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-752">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="62">
+          <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

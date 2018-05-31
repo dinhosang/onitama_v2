@@ -29,9 +29,9 @@ public class ConcurrentPieceFactory {
 
     public void createPieces() {
 
-        if(this.mode == GameMode.STANDARD) {
+        if(this.mode.equals(GameMode.STANDARD)) {
             setupStandardModePieceCreation();
-        } else if (this.mode == GameMode.TESTSTANDARD) {
+        } else if (this.mode.equals(GameMode.TESTSTANDARD)) {
             long startTime = System.currentTimeMillis();
 
             for(int timesTested = 0; timesTested < 1000; timesTested++) {
@@ -92,7 +92,7 @@ public class ConcurrentPieceFactory {
 
             lock.lock();
 
-            if(faction == PieceFaction.RED){
+            if(faction.equals(PieceFaction.RED)){
                 switch(type){
                     case STUDENT:
                         piece = new RedStudent();
@@ -106,7 +106,7 @@ public class ConcurrentPieceFactory {
                         System.out.println("Invalid type");
                         break;
                 }
-            } else if (faction == PieceFaction.BLUE) {
+            } else if (faction.equals(PieceFaction.BLUE)) {
                 switch (type) {
                     case STUDENT:
                         piece = new BlueStudent();
