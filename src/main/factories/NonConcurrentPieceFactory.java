@@ -41,7 +41,7 @@ public class NonConcurrentPieceFactory {
             long endTime = System.currentTimeMillis();
 //            long endTime = System.nanoTime();
 
-            System.out.println(endTime - startTime + " Nano-Seconds");
+            System.out.println(endTime - startTime + "ms");
 
         } else {
             //            could try throwing a homemade exception for incorrect game mode?

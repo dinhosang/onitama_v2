@@ -8,6 +8,9 @@ import models.pieces.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class ConcurrentPieceFactory {
@@ -44,7 +47,7 @@ public class ConcurrentPieceFactory {
             long endTime = System.currentTimeMillis();
 //            long endTime = System.nanoTime();
 
-            System.out.println(endTime - startTime + " Nano-Seconds");
+            System.out.println(endTime - startTime + "ms");
 
         } else {
             //            could try throwing a homemade exception for incorrect game mode?
@@ -52,8 +55,10 @@ public class ConcurrentPieceFactory {
     }
 
     private void setupStandardModePieceCreation() {
-        Set<PieceFaction> keys      = this.piecesContainer.keySet();
-        ArrayList<Thread> threads = new ArrayList<>();
+        Set<PieceFaction> keys          = this.piecesContainer.keySet();
+        // CachedThreadPool has similar logged times to FixedThreadPool(3)
+        // far superior to making individual threads, but still far slower than single-threaded factory
+        ExecutorService   threadPool    = Executors.newCachedThreadPool();
 
         for(PieceFaction faction : keys){
 
@@ -67,19 +72,15 @@ public class ConcurrentPieceFactory {
                     pieceCreator = new ConcurrentPieceCreator(faction, PieceType.SENSEI);
                 }
 
-                Thread thread = new Thread(pieceCreator);
-                threads.add(thread);
-                thread.start();
+                threadPool.execute(pieceCreator);
             }
         }
 
-        for(Thread thread : threads){
-            try {
-                thread.join();
-            } catch (InterruptedException e) {
-                thread.interrupt();
-                e.printStackTrace();
-            }
+        threadPool.shutdown();
+        try {
+            threadPool.awaitTermination(30, TimeUnit.SECONDS);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
     }
 
