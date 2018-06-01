@@ -52,7 +52,7 @@ public class individualCardsTest {
         elephant = new Elephant();
         boar    = new Boar();
         dragon  = new Dragon();
-//        tiger   = new Tiger();
+        tiger   = new Tiger();
 //        crab    = new Crab();
 //        ox      = new Ox();
 //        eel     = new Eel();
@@ -283,16 +283,64 @@ public class individualCardsTest {
         assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move4));
     }
 
-    @Ignore @Test
-    public void rooastsderHasNameRoosterAndFactionRed() {
-        assertEquals("Cobra", this.cobra.getName());
-        assertEquals(PieceFaction.RED, this.cobra.getFaction());
+    @Test
+    public void tigerHasNameTigerAndFactionBlue() {
+        assertEquals("Tiger", this.tiger.getName());
+        assertEquals(PieceFaction.BLUE, this.tiger.getFaction());
+    }
+
+    @Test
+    public void tigerHasTwoSpecificMoves() {
+
+        this.copyMoves = this.tiger.getMoves();
+        assertEquals(2, this.copyMoves.size());
+
+        this.move1 = this.copyMoves.get(0);
+        this.move2 = this.copyMoves.get(1);
+
+        assertSame(0, convertMoves.getCoordX(move1));
+        assertSame((moveDirection.UP.getValue() + moveDirection.UP.getValue()), convertMoves.getCoordY(move1));
+
+        assertSame(0, convertMoves.getCoordX(move2));
+        assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move2));
     }
 
     @Ignore @Test
-    public void roaosasterHasFourSpecificMoves() {
+    public void osdtigerHasNameTigerAndFactionBlue() {
+        assertEquals("Tiger", this.tiger.getName());
+        assertEquals(PieceFaction.BLUE, this.tiger.getFaction());
+    }
 
-        this.copyMoves = this.cobra.getMoves();
+    @Ignore @Test
+    public void ogtigerHasFourSpecificMoves() {
+
+        this.copyMoves = this.tiger.getMoves();
+        assertEquals(3, this.copyMoves.size());
+
+        this.move1 = this.copyMoves.get(0);
+        this.move2 = this.copyMoves.get(1);
+        this.move3 = this.copyMoves.get(2);
+
+        assertSame(1, convertMoves.getCoordX(move1));
+        assertSame(-1, convertMoves.getCoordY(move1));
+
+        assertSame(-1, convertMoves.getCoordX(move2));
+        assertSame(0, convertMoves.getCoordY(move2));
+
+        assertSame(1, convertMoves.getCoordX(move3));
+        assertSame(1, convertMoves.getCoordY(move3));
+    }
+
+    @Ignore @Test
+    public void ostigerHasNameTigerAndFactionBlue() {
+        assertEquals("Tiger", this.tiger.getName());
+        assertEquals(PieceFaction.BLUE, this.tiger.getFaction());
+    }
+
+    @Ignore @Test
+    public void oatigerHasFourSpecificMoves() {
+
+        this.copyMoves = this.tiger.getMoves();
         assertEquals(3, this.copyMoves.size());
 
         this.move1 = this.copyMoves.get(0);
