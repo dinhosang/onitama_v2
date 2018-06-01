@@ -4,7 +4,6 @@ import constants.GameMode;
 import helpers.IContainer;
 import helpers.ICreate;
 import models.cards.Card;
-import models.cards.Deck;
 import models.cards.individualCards.*;
 
 import java.util.ArrayList;
@@ -12,25 +11,25 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class NonConcurrentCardFactory implements ICreate {
 
-    public static void createItems(GameMode mode, IContainer container) throws IllegalArgumentException {
-
-        if(!checkContainerIsInstanceOfDeck(container)){
-            throw new IllegalArgumentException("Wrong container type entered into NCCardFactory" +
-                                                " - Deck() instance expected");
-        }
+    public static void createItems(GameMode mode, IContainer deck) {
 
         if(mode.equals(GameMode.STANDARD)){
-            setupStandardModeCardCreation((Deck) container);
+            setupStandardModeCardCreation(deck);
+        } else if (mode.equals(GameMode.TESTSTANDARD)){
+            long startTime    = System.currentTimeMillis();
+
+            for(int numberOfSetsMade = 0; numberOfSetsMade < 1000; numberOfSetsMade++){
+              setupStandardModeCardCreation(deck);
+            }
+
+            long endTime      = System.currentTimeMillis();
+            System.out.println(endTime - startTime + "ms");
         } else {
             // throw exception here?
         }
     }
 
-    private static Boolean checkContainerIsInstanceOfDeck(IContainer container) {
-        return container instanceof Deck;
-    }
-
-    private static void setupStandardModeCardCreation(Deck deck) {
+    private static void setupStandardModeCardCreation(IContainer deck) {
         ArrayList<Integer> randomNumbersListToCreateCardsBy = new ArrayList<>();
 
 //        ThreadLocalRandom.current().ints(0,19).distinct().limit(5).forEach(
@@ -51,7 +50,7 @@ public class NonConcurrentCardFactory implements ICreate {
         }
     }
 
-    private static void createCard(Deck deck, Integer number) {
+    private static void createCard(IContainer deck, Integer number) {
 
         Card card;
 

@@ -4,5 +4,5 @@ import constants.GameMode;
 
 public interface ICreate {
 
-    static void createItems(GameMode requestType, IContainer container) throws IllegalArgumentException {};
+    static void createItems(GameMode requestType, IContainer container) {};
 }
