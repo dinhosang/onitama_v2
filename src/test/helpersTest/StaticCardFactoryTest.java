@@ -3,7 +3,7 @@ package helpersTest;
 import constants.GameMode;
 import helpers.IContainer;
 import helpers.IHeld;
-import helpers.factories.NonConcurrentCardFactory;
+import helpers.factories.StaticCardFactory;
 import models.cards.Card;
 import org.junit.Before;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class NonConcurrentCardFactoryTest {
+public class StaticCardFactoryTest {
 
     IContainer mockDeck;
 
@@ -57,14 +57,14 @@ public class NonConcurrentCardFactoryTest {
 
     @Test
     public void fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame() {
-        NonConcurrentCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
 
         assertEquals(5, this.mockDeck.getSize());
     }
 
     @Test
     public void eachCardMadeIsUnique() {
-        NonConcurrentCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
 
         Card card1 = (Card) this.mockDeck.getItem();
         Card card2 = (Card) this.mockDeck.getItem();
@@ -91,17 +91,17 @@ public class NonConcurrentCardFactoryTest {
 
     @Test
     public void testingTimeToProcess10Times1KCreations() {
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        NonConcurrentCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
         assertEquals(50000, this.mockDeck.getSize());
     }

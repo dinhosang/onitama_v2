@@ -2,10 +2,10 @@ package modelsTest.piecesTest;
 
 import constants.PieceFaction;
 import constants.PieceType;
-import models.pieces.BlueSensei;
-import models.pieces.BlueStudent;
-import models.pieces.RedSensei;
-import models.pieces.RedStudent;
+import models.pieces.individualPieces.BlueSensei;
+import models.pieces.individualPieces.BlueStudent;
+import models.pieces.individualPieces.RedSensei;
+import models.pieces.individualPieces.RedStudent;
 import org.junit.Before;
 import org.junit.Test;
 

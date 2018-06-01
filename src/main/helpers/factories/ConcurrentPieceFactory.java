@@ -4,6 +4,10 @@ import constants.GameMode;
 import constants.PieceFaction;
 import constants.PieceType;
 import models.pieces.*;
+import models.pieces.individualPieces.BlueSensei;
+import models.pieces.individualPieces.BlueStudent;
+import models.pieces.individualPieces.RedSensei;
+import models.pieces.individualPieces.RedStudent;
 
 import java.util.ArrayList;
 import java.util.HashMap;

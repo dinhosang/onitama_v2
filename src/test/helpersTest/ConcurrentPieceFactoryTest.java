@@ -4,6 +4,10 @@ import constants.GameMode;
 import constants.PieceFaction;
 import helpers.factories.ConcurrentPieceFactory;
 import models.pieces.*;
+import models.pieces.individualPieces.BlueSensei;
+import models.pieces.individualPieces.BlueStudent;
+import models.pieces.individualPieces.RedSensei;
+import models.pieces.individualPieces.RedStudent;
 import org.junit.Before;
 import org.junit.Test;
 

@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/helpers/ICreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/ICreate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/individualPieces/BlueSensei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/individualPieces/BlueStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/Piece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/RedSensei.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/individualPieces/RedSensei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/RedStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/pieces/individualPieces/RedStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -24,23 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+            <state relative-caret-position="310">
+              <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,19 +45,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameMode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
+      <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="415">
+              <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonConcurrentCardFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java">
+      <file leaf-file-name="PiecesBox.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticCardFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
               <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NonConcurrentCardFactoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java">
+      <file leaf-file-name="Piece.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+            <state relative-caret-position="90">
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -391,11 +400,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/constants/PieceType.java" />
         <option value="$PROJECT_DIR$/src/main/constants/PieceFaction.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/PieceTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/Piece.java" />
-        <option value="$PROJECT_DIR$/src/main/models/pieces/Piece.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/RedStudent.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/RedSensei.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java" />
@@ -435,13 +442,15 @@
         <option value="$PROJECT_DIR$/src/main/helpers/IContainer.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/NonConcurrentCardFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/constants/GameMode.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/ICreate.java" />
         <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/models/pieces/Piece.java" />
+        <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -598,24 +607,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations">
+  <component name="RunManager" selected="JUnit.All in OnitamaJavaVersion_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="DeckTest.deckWillThrowErrorIfAttemptingToRemoveMoreThanExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in OnitamaJavaVersion_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelsTest.cardsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.DeckTest" />
-      <option name="METHOD_NAME" value="deckWillThrowErrorIfAttemptingToRemoveMoreThanExists" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -625,7 +628,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentCardFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticCardFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -636,7 +639,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.NonConcurrentCardFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -648,7 +651,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentCardFactoryTest.eachCardMadeIsUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticCardFactoryTest.eachCardMadeIsUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -659,7 +662,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.NonConcurrentCardFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
       <option name="METHOD_NAME" value="eachCardMadeIsUnique" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -671,7 +674,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -682,7 +685,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.NonConcurrentCardFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
       <option name="METHOD_NAME" value="fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -694,7 +697,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -705,7 +708,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.NonConcurrentCardFactoryTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
       <option name="METHOD_NAME" value="testingTimeToProcess10Times1KCreations" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -756,19 +759,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.DeckTest.deckWillThrowErrorIfAttemptingToRemoveMoreThanExists" />
-      <item itemvalue="JUnit.NonConcurrentCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" />
-      <item itemvalue="JUnit.NonConcurrentCardFactoryTest.eachCardMadeIsUnique" />
-      <item itemvalue="JUnit.NonConcurrentCardFactoryTest" />
-      <item itemvalue="JUnit.NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations" />
+      <item itemvalue="JUnit.StaticCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" />
+      <item itemvalue="JUnit.StaticCardFactoryTest.eachCardMadeIsUnique" />
+      <item itemvalue="JUnit.StaticCardFactoryTest" />
+      <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" />
+      <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations" />
-        <item itemvalue="JUnit.NonConcurrentCardFactoryTest" />
-        <item itemvalue="JUnit.NonConcurrentCardFactoryTest.eachCardMadeIsUnique" />
-        <item itemvalue="JUnit.NonConcurrentCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" />
-        <item itemvalue="JUnit.DeckTest.deckWillThrowErrorIfAttemptingToRemoveMoreThanExists" />
+        <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
+        <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" />
+        <item itemvalue="JUnit.StaticCardFactoryTest" />
+        <item itemvalue="JUnit.StaticCardFactoryTest.eachCardMadeIsUnique" />
+        <item itemvalue="JUnit.StaticCardFactoryTest.fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame" />
       </list>
     </recent_temporary>
   </component>
@@ -829,12 +832,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -860,9 +863,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -879,41 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/RedStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/RedSensei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/BlueStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/BlueSensei.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1264,30 +1229,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1304,9 +1249,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="1215">
+          <caret line="85" column="13" lean-forward="true" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
           <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1314,13 +1269,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="105" column="51" selection-start-line="105" selection-start-column="51" selection-end-line="105" selection-end-column="51" />
+        <state relative-caret-position="90">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="32" column="56" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/individualPieces/RedStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/individualPieces/BlueSensei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/individualPieces/BlueStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/individualPieces/RedSensei.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="35" column="38" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>

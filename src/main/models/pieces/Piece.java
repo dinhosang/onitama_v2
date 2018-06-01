@@ -2,8 +2,9 @@ package models.pieces;
 
 import constants.PieceFaction;
 import constants.PieceType;
+import helpers.IHeld;
 
-public abstract class Piece {
+public abstract class Piece implements IHeld {
 
     private PieceType     type;
     private PieceFaction  faction;
