@@ -10,14 +10,14 @@ import java.util.HashMap;
 public abstract class Card {
 
 
-    protected String name;
-    protected PieceFaction faction;
-    protected ArrayList<HashMap<CoordinateAxis, Integer>> moves;
+    private String name;
+    private PieceFaction faction;
+    private ArrayList<HashMap<CoordinateAxis, Integer>> moves;
 
-    public Card(String name, PieceFaction faction, ArrayList<HashMap<CoordinateAxis,Integer>> moves) {
+    public Card(String name, PieceFaction faction) {
         this.name       = name;
         this.faction    = faction;
-        this.moves      = moves;
+        this.moves      = null;
     }
 
     public String getName() {
@@ -32,4 +32,10 @@ public abstract class Card {
         ArrayList<HashMap<CoordinateAxis, Integer>> copyMoves = new ArrayList<>(this.moves);
         return copyMoves;
     }
+
+    protected void setMoves(ArrayList<HashMap<CoordinateAxis,Integer>> movesList) {
+        this.moves = movesList;
+    }
+
+    protected abstract void prepareMoves();
 }
