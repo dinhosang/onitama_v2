@@ -1,6 +1,8 @@
 package helpers;
 
+import constants.GameMode;
+
 public interface ICreate {
 
-    static void createItems(Enum requestType, IContainer container){};
+    static void createItems(GameMode requestType, IContainer container) throws IllegalArgumentException {};
 }
