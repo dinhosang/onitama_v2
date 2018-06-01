@@ -2,12 +2,12 @@ package models.cards;
 
 import constants.CoordinateAxis;
 import constants.PieceFaction;
+import helpers.IHeld;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.HashMap;
 
-public abstract class Card {
+public abstract class Card implements IHeld {
 
 
     private String name;
