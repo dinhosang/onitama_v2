@@ -8,11 +8,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class Mantis extends Card {
+public class Horse extends Card {
 
-    public Mantis(){
+    public Horse(){
 
-        super("Mantis", PieceFaction.RED);
+        super("Horse", PieceFaction.RED);
         this.prepareMoves();
     }
 
@@ -27,13 +27,13 @@ public class Mantis extends Card {
         move3 = new HashMap<>();
 
         move1.put(CoordinateAxis.X, 0);
-        move1.put(CoordinateAxis.Y, -1);
+        move1.put(CoordinateAxis.Y, 1);
 
-        move2.put(CoordinateAxis.X, 1);
-        move2.put(CoordinateAxis.Y, 1);
+        move2.put(CoordinateAxis.X, -1);
+        move2.put(CoordinateAxis.Y, 0);
 
-        move3.put(CoordinateAxis.X, -1);
-        move3.put(CoordinateAxis.Y, 1);
+        move3.put(CoordinateAxis.X, 0);
+        move3.put(CoordinateAxis.Y, -1);
 
         moves = new ArrayList<>(Arrays.asList(move1, move2, move3));
 
