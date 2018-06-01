@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/helpers/convertMoves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/cards/individualCards/Mantis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/models/cards/individualCards/Rooster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/models/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,20 +24,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="individualCardsTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="individualCardsTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state relative-caret-position="396">
+              <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#frogHasNameFrogAndFactionRed#0;class#individualCardsTest#0" />
+                <element signature="method#frogHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+                <element signature="method#cobraHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+                <element signature="method#cobraHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+                <element signature="method#roosterHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+                <element signature="method#roosterHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cobra.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java">
+      <file leaf-file-name="Mantis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Mantis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="377">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Frog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java">
+      <file leaf-file-name="Rooster.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Rooster.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="351">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cobra.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -391,8 +409,10 @@
         <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/CardTest.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/convertMoves.java" />
         <option value="$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java" />
-        <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java" />
+        <option value="$PROJECT_DIR$/src/main/models/cards/individualCards/Rooster.java" />
+        <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/models/cards/individualCards/Mantis.java" />
       </list>
     </option>
   </component>
@@ -408,9 +428,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -510,6 +529,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -519,14 +539,14 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="models.cards.individualCards" />
       <recent name="factories" />
       <recent name="constants" />
       <recent name="models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -541,55 +561,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.individualCardsTest">
+  <component name="RunManager" selected="JUnit.individualCardsTest.mantisHasThreeSpecificMoves">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="CardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelsTest.cardsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.CardTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelsTest.cardsTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.CardTest" />
-      <option name="METHOD_NAME" value="movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -630,7 +604,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="individualCardsTest.cobraHasNameCobraAndFactionRed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="individualCardsTest.mantisHasNameMantisAndFactionRed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -642,7 +616,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
       <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.individualCardsTest" />
-      <option name="METHOD_NAME" value="cobraHasNameCobraAndFactionRed" />
+      <option name="METHOD_NAME" value="mantisHasNameMantisAndFactionRed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -653,7 +627,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="individualCardsTest.frogHasThreeSpecificMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="individualCardsTest.mantisHasThreeSpecificMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -665,7 +639,53 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
       <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.individualCardsTest" />
-      <option name="METHOD_NAME" value="frogHasThreeSpecificMoves" />
+      <option name="METHOD_NAME" value="mantisHasThreeSpecificMoves" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="individualCardsTest.roosterHasFourSpecificMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelsTest.cardsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
+      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.individualCardsTest" />
+      <option name="METHOD_NAME" value="roosterHasFourSpecificMoves" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="individualCardsTest.roosterHasNameRoosterAndFactionRed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelsTest.cardsTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="modelsTest.cardsTest" />
+      <option name="MAIN_CLASS_NAME" value="modelsTest.cardsTest.individualCardsTest" />
+      <option name="METHOD_NAME" value="roosterHasNameRoosterAndFactionRed" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -699,19 +719,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CardTest" />
-      <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
       <item itemvalue="JUnit.individualCardsTest" />
-      <item itemvalue="JUnit.individualCardsTest.frogHasThreeSpecificMoves" />
-      <item itemvalue="JUnit.individualCardsTest.cobraHasNameCobraAndFactionRed" />
+      <item itemvalue="JUnit.individualCardsTest.roosterHasNameRoosterAndFactionRed" />
+      <item itemvalue="JUnit.individualCardsTest.roosterHasFourSpecificMoves" />
+      <item itemvalue="JUnit.individualCardsTest.mantisHasNameMantisAndFactionRed" />
+      <item itemvalue="JUnit.individualCardsTest.mantisHasThreeSpecificMoves" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.individualCardsTest.mantisHasThreeSpecificMoves" />
+        <item itemvalue="JUnit.individualCardsTest.mantisHasNameMantisAndFactionRed" />
         <item itemvalue="JUnit.individualCardsTest" />
-        <item itemvalue="JUnit.individualCardsTest.cobraHasNameCobraAndFactionRed" />
-        <item itemvalue="JUnit.individualCardsTest.frogHasThreeSpecificMoves" />
-        <item itemvalue="JUnit.CardTest" />
-        <item itemvalue="JUnit.CardTest.movesListReturnedFromCardIsACopyAndCannotModifyOriginal" />
+        <item itemvalue="JUnit.individualCardsTest.roosterHasFourSpecificMoves" />
+        <item itemvalue="JUnit.individualCardsTest.roosterHasNameRoosterAndFactionRed" />
       </list>
     </recent_temporary>
   </component>
@@ -729,35 +749,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CardTest - 2018.06.01 at 01h 39m 11s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CardTest - 2018.06.01 at 01h 51m 30s.xml">
-      <configuration name="CardTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest - 2018.06.01 at 01h 51m 43s.xml">
-      <configuration name="individualCardsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest - 2018.06.01 at 01h 53m 31s.xml">
-      <configuration name="individualCardsTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest_frogHasThreeSpecificMoves - 2018.06.01 at 02h 08m 35s.xml">
-      <configuration name="individualCardsTest.frogHasThreeSpecificMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest_frogHasThreeSpecificMoves - 2018.06.01 at 02h 19m 13s.xml">
-      <configuration name="individualCardsTest.frogHasThreeSpecificMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest_frogHasThreeSpecificMoves - 2018.06.01 at 02h 19m 24s.xml">
-      <configuration name="individualCardsTest.frogHasThreeSpecificMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest_frogHasThreeSpecificMoves - 2018.06.01 at 02h 21m 18s.xml">
-      <configuration name="individualCardsTest.frogHasThreeSpecificMoves" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="individualCardsTest_cobraHasNameCobraAndFactionRed - 2018.06.01 at 02h 24m 08s.xml">
-      <configuration name="individualCardsTest.cobraHasNameCobraAndFactionRed" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="individualCardsTest_cobraHasNameCobraAndFactionRed - 2018.06.01 at 02h 24m 25s.xml">
       <configuration name="individualCardsTest.cobraHasNameCobraAndFactionRed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest - 2018.06.01 at 02h 28m 17s.xml">
+      <configuration name="individualCardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasNameRoosterAndFactionRed - 2018.06.01 at 02h 36m 13s.xml">
+      <configuration name="individualCardsTest.roosterHasNameRoosterAndFactionRed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasFourSpecificMoves - 2018.06.01 at 02h 39m 04s.xml">
+      <configuration name="individualCardsTest.roosterHasFourSpecificMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasFourSpecificMoves - 2018.06.01 at 02h 39m 15s.xml">
+      <configuration name="individualCardsTest.roosterHasFourSpecificMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasFourSpecificMoves - 2018.06.01 at 02h 39m 34s.xml">
+      <configuration name="individualCardsTest.roosterHasFourSpecificMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasFourSpecificMoves - 2018.06.01 at 02h 39m 56s.xml">
+      <configuration name="individualCardsTest.roosterHasFourSpecificMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_roosterHasFourSpecificMoves - 2018.06.01 at 02h 40m 05s.xml">
+      <configuration name="individualCardsTest.roosterHasFourSpecificMoves" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest - 2018.06.01 at 02h 41m 10s.xml">
+      <configuration name="individualCardsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="individualCardsTest_mantisHasNameMantisAndFactionRed - 2018.06.01 at 02h 43m 27s.xml">
+      <configuration name="individualCardsTest.mantisHasNameMantisAndFactionRed" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -772,7 +792,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.23376623" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -799,10 +819,46 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="9" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#frogHasNameFrogAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#frogHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+            <element signature="method#cobraHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#cobraHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+            <element signature="method#roosterHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#roosterHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -1113,22 +1169,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/convertMoves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1145,8 +1185,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
+        <state relative-caret-position="615">
+          <caret line="41" column="1" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Rooster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1155,8 +1215,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Cobra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="180">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1165,8 +1225,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="396">
+          <caret line="172" column="20" selection-start-line="172" selection-start-column="20" selection-end-line="172" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#frogHasNameFrogAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#frogHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+            <element signature="method#cobraHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#cobraHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+            <element signature="method#roosterHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
+            <element signature="method#roosterHasThreeSpecificMoves#0;class#individualCardsTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Mantis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
