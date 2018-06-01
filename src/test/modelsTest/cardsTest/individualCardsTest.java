@@ -7,7 +7,6 @@ import helpers.convertMoves;
 import models.cards.Card;
 import models.cards.individualCards.*;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -58,8 +57,8 @@ public class individualCardsTest {
         eel     = new Eel();
         crane   = new Crane();
         goose   = new Goose();
-//        rabbit  = new Rabbit();
-//        monkey  = new Monkey();
+        rabbit  = new Rabbit();
+        monkey  = new Monkey();
     }
 
 
@@ -439,30 +438,61 @@ public class individualCardsTest {
         assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move4));
     }
 
-    @Ignore @Test
-    public void oaasHasNameOxAndFactionBlue() {
-        assertEquals("Ox", this.tiger.getName());
-        assertEquals(PieceFaction.BLUE, this.tiger.getFaction());
+    @Test
+    public void rabbitHasNameRabbitAndFactionBlue() {
+        assertEquals("Rabbit", this.rabbit.getName());
+        assertEquals(PieceFaction.BLUE, this.rabbit.getFaction());
     }
 
-    @Ignore @Test
-    public void oasaftigerHasThreeSpecificMoves() {
+    @Test
+    public void rabbitHasThreeSpecificMoves() {
 
-        this.copyMoves = this.tiger.getMoves();
+        this.copyMoves = this.rabbit.getMoves();
         assertEquals(3, this.copyMoves.size());
 
         this.move1 = this.copyMoves.get(0);
         this.move2 = this.copyMoves.get(1);
         this.move3 = this.copyMoves.get(2);
 
-        assertSame(1, convertMoves.getCoordX(move1));
-        assertSame(-1, convertMoves.getCoordY(move1));
+        assertSame((moveDirection.RIGHT.getValue() + moveDirection.RIGHT.getValue()), convertMoves.getCoordX(move1));
+        assertSame(0, convertMoves.getCoordY(move1));
 
-        assertSame(-1, convertMoves.getCoordX(move2));
-        assertSame(0, convertMoves.getCoordY(move2));
+        assertSame(moveDirection.RIGHT.getValue(), convertMoves.getCoordX(move2));
+        assertSame(moveDirection.UP.getValue(), convertMoves.getCoordY(move2));
 
-        assertSame(1, convertMoves.getCoordX(move3));
-        assertSame(1, convertMoves.getCoordY(move3));
+        assertSame(moveDirection.LEFT.getValue(), convertMoves.getCoordX(move3));
+        assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move3));
     }
+
+    @Test
+    public void monkeyHasNameMonkeyAndFactionBlue() {
+        assertEquals("Monkey", this.monkey.getName());
+        assertEquals(PieceFaction.BLUE, this.monkey.getFaction());
+    }
+
+    @Test
+    public void monkeyHasFourSpecificMoves() {
+
+        this.copyMoves = this.monkey.getMoves();
+        assertEquals(4, this.copyMoves.size());
+
+        this.move1 = this.copyMoves.get(0);
+        this.move2 = this.copyMoves.get(1);
+        this.move3 = this.copyMoves.get(2);
+        this.move4 = this.copyMoves.get(3);
+
+        assertSame(moveDirection.RIGHT.getValue(), convertMoves.getCoordX(move1));
+        assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move1));
+
+        assertSame(moveDirection.LEFT.getValue(), convertMoves.getCoordX(move2));
+        assertSame(moveDirection.DOWN.getValue(), convertMoves.getCoordY(move2));
+
+        assertSame(moveDirection.LEFT.getValue(), convertMoves.getCoordX(move3));
+        assertSame(moveDirection.UP.getValue(), convertMoves.getCoordY(move3));
+
+        assertSame(moveDirection.RIGHT.getValue(), convertMoves.getCoordX(move4));
+        assertSame(moveDirection.UP.getValue(), convertMoves.getCoordY(move4));
+    }
+
 
 }
