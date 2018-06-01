@@ -18,7 +18,7 @@ import static org.junit.Assert.assertNotEquals;
 public class DeckTest {
 
     Deck deck;
-    IHeld mockIHeld;
+
     IHeld mockCard1;
     IHeld mockCard2;
     IHeld mockCard3;
@@ -32,39 +32,9 @@ public class DeckTest {
             public MockIHeld() {}
         }
 
-        class MockDragon extends Card {
-
-            private MockDragon() {
-                super("Dragon", PieceFaction.RED);
-                this.prepareMoves();
-            }
-
-            @Override
-            protected void prepareMoves() {
-                ArrayList<HashMap<CoordinateAxis, Integer>> cardMoves;
-                HashMap<CoordinateAxis, Integer> move1;
-                HashMap<CoordinateAxis, Integer> move2;
-
-                move1 = new HashMap<>();
-                move2 = new HashMap<>();
-
-                move1.put(CoordinateAxis.X, 2);
-                move1.put(CoordinateAxis.Y, -1);
-
-                move2.put(CoordinateAxis.X, -3);
-                move2.put(CoordinateAxis.Y, 0);
-
-                cardMoves = new ArrayList<>(Arrays.asList(move1, move2));
-
-                this.setMoves(cardMoves);
-            }
-        }
-
-        this.mockCard1 = new MockDragon();
-        this.mockCard2 = new MockDragon();
-        this.mockCard3 = new MockDragon();
-
-        this.mockIHeld = new MockIHeld();
+        this.mockCard1 = new MockIHeld();
+        this.mockCard2 = new MockIHeld();
+        this.mockCard3 = new MockIHeld();
     }
 
     @Test
@@ -80,21 +50,6 @@ public class DeckTest {
     }
 
     @Test
-    public void deckWontAcceptNonCardIHelds() {
-
-        Exception exception = null;
-
-        try {
-            this.deck.addItem(this.mockIHeld);
-        } catch (IllegalArgumentException e) {
-            exception = e;
-        }
-
-        assertEquals(0, this.deck.getSize());
-        assertNotEquals(null, exception);
-    }
-
-    @Test
     public void deckWillRemoveAndReturnHeldCardsFirstInFirstOut() {
         this.deck.addItem(this.mockCard1);
         this.deck.addItem(this.mockCard2);
@@ -102,8 +57,8 @@ public class DeckTest {
 
         assertEquals(3, this.deck.getSize());
 
-        Card returnedCard1 = (Card) this.deck.getItem();
-        Card returnedCard2 = (Card) this.deck.getItem();
+        IHeld returnedCard1 = this.deck.getItem();
+        IHeld returnedCard2 = this.deck.getItem();
 
         assertEquals(this.mockCard1, returnedCard1);
         assertEquals(this.mockCard2, returnedCard2);

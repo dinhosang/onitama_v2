@@ -2,7 +2,7 @@ package helpers;
 
 public interface IContainer {
 
-    void addItem(IHeld item) throws IllegalArgumentException;
+    void addItem(IHeld item);
 
     int getSize();
 

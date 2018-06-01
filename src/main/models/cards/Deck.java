@@ -14,12 +14,8 @@ public class Deck implements IContainer {
     }
 
     @Override
-    public void addItem(IHeld item) throws IllegalArgumentException {
-        if (item instanceof Card) {
-            cards.add(item);
-        } else {
-            throw new IllegalArgumentException("Wrong item passed through to Deck instance - non-Card item");
-        }
+    public void addItem(IHeld item) {
+        cards.add(item);
     }
 
     public int getSize() {
