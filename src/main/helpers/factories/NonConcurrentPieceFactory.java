@@ -1,4 +1,4 @@
-package factories;
+package helpers.factories;
 
 import constants.GameMode;
 import constants.PieceFaction;

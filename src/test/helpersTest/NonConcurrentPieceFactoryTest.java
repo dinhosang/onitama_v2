@@ -1,8 +1,8 @@
-package factoriesTest;
+package helpersTest;
 
 import constants.GameMode;
 import constants.PieceFaction;
-import factories.ConcurrentPieceFactory;
+import helpers.factories.NonConcurrentPieceFactory;
 import models.pieces.*;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,9 +12,9 @@ import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
-public class ConcurrentPieceFactoryTest {
+public class NonConcurrentPieceFactoryTest {
 
-    private ConcurrentPieceFactory factoryNC;
+    private NonConcurrentPieceFactory factoryNC;
     private HashMap<PieceFaction, ArrayList<Piece>> piecesContainer;
 
     @Before
@@ -23,7 +23,7 @@ public class ConcurrentPieceFactoryTest {
         piecesContainer.put(PieceFaction.BLUE, new ArrayList<>());
         piecesContainer.put(PieceFaction.RED, new ArrayList<>());
 
-        factoryNC = new ConcurrentPieceFactory();
+        factoryNC = new NonConcurrentPieceFactory();
         factoryNC.setFactory(GameMode.STANDARD, piecesContainer);
     }
 
@@ -128,6 +128,7 @@ public class ConcurrentPieceFactoryTest {
 
         assertEquals(1, numberOfSensei);
     }
+
 
 
 }

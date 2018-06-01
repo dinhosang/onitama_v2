@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/helpers/IHeld.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/models/cards/Deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/ICreate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/helpers/IContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/IContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/models/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/models/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,51 +27,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="individualCardsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/individualCardsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding>
-                <element signature="method#frogHasNameFrogAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#frogHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#cobraHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#cobraHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#roosterHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#roosterHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#mnHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#mantisHasFourSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#HorseHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#HorseHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#elephantHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-                <element signature="method#elephantHasFourSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#roostserHasNameRoosterAndFactionRed#2;class#individualCardsTest#0" />
-                <element signature="method#boarHasFourSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#rooastserHasNameRoosterAndFactionRed#1;class#individualCardsTest#0" />
-                <element signature="method#dragonHasFourSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#otigerHasNameTigerAndFactionBlue#0;class#individualCardsTest#0" />
-                <element signature="method#otigerHasFourSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#otigerHasNameTigerAndFactionBlue#1;class#individualCardsTest#0" />
-                <element signature="method#crabHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-                <element signature="method#oxHasNameTigerAndFactionBlue#0;class#individualCardsTest#0" />
-                <element signature="method#otigerHasFourSpecificMoves#2;class#individualCardsTest#0" />
-                <element signature="e#12449#12631#0" />
-                <element signature="e#12595#13222#0" />
-                <element signature="e#13381#13568#0" />
-                <element signature="e#13577#14202#0" />
-                <element signature="e#14327#14511#0" />
-                <element signature="e#14286#14914#0" />
-                <element signature="e#15454#15643#0" />
-                <element signature="e#15655#16282#0" />
-                <element signature="e#16451#16634#0" />
-                <element signature="e#16652#17279#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="62">
               <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
@@ -82,13 +40,34 @@
         </entry>
       </file>
       <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
+            <state relative-caret-position="146">
               <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NonConcurrentCardFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICreate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/ICreate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -109,28 +88,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeckTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="842">
-              <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -477,6 +442,9 @@
         <option value="$PROJECT_DIR$/src/main/models/cards/Card.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/IContainer.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/NonConcurrentCardFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/ICreate.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" />
       </list>
     </option>
   </component>
@@ -517,7 +485,7 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -525,6 +493,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +529,7 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="factoriesTest" type="462c0819:PsiDirectoryNode" />
+              <item name="helpersTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -856,12 +825,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.23376623" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -887,24 +856,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/constants/GameMode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
@@ -996,7 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
@@ -1006,7 +958,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/factoriesTest/NonConcurrentPieceFactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
@@ -1246,7 +1198,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62">
           <caret line="108" column="56" selection-start-line="108" selection-start-column="56" selection-end-line="108" selection-end-column="56" />
@@ -1331,16 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/Deck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -1357,12 +1299,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="842">
-          <caret line="127" column="45" selection-start-line="127" selection-start-column="45" selection-end-line="127" selection-end-column="45" />
+        <state relative-caret-position="803">
+          <caret line="90" column="9" lean-forward="true" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/ICreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
