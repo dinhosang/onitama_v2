@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="" />
+    <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,75 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NonConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
+      <file leaf-file-name="StaticPieceFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NonConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PiecesBox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Container.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/models/containers/Container.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IContain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/IContain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/modelsTest/containersTest/ContainerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-110">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,10 +41,59 @@
       <file leaf-file-name="StaticCardFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="141">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticPieceFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-348">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="e#822#823#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+                <element signature="e#951#952#0" expanded="true" />
+                <element signature="e#979#980#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticCardFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#804#805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Container.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/models/containers/Container.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="9" selection-start-line="9" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -429,7 +421,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/factoriesTest/ConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java" />
@@ -467,10 +458,8 @@
         <option value="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentCardFactory.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/Piece.java" />
-        <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/cards/Deck.java" />
         <option value="$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java" />
-        <option value="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/cardsTest/DeckTest.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PiecesBoxTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/Container.java" />
@@ -480,6 +469,9 @@
         <option value="$PROJECT_DIR$/src/test/modelsTest/containersTest/ContainerTest.java" />
         <option value="$PROJECT_DIR$/src/main/models/containers/Container.java" />
         <option value="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" />
       </list>
     </option>
   </component>
@@ -673,18 +665,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ContainerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticPieceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modelsTest.containersTest.*" />
+          <option name="PATTERN" value="helpersTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="modelsTest.containersTest" />
-      <option name="MAIN_CLASS_NAME" value="modelsTest.containersTest.ContainerTest" />
+      <option name="PACKAGE_NAME" value="helpersTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -696,7 +688,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StaticCardFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -707,31 +699,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StaticCardFactoryTest.eachCardMadeIsUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helpersTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
-      <option name="METHOD_NAME" value="eachCardMadeIsUnique" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
+      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -742,7 +711,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticPieceFactoryTest.createsOneBlueSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -753,8 +722,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
-      <option name="METHOD_NAME" value="testingTimeToProcess10Times1KCreations" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
+      <option name="METHOD_NAME" value="createsOneBlueSensei" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StaticPieceFactoryTest.willCreateOneRedSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helpersTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="helpersTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
+      <option name="METHOD_NAME" value="willCreateOneRedSensei" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -804,19 +796,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StaticCardFactoryTest.eachCardMadeIsUnique" />
-      <item itemvalue="JUnit.StaticCardFactoryTest" />
-      <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest.createsOneBlueSensei" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest.willCreateOneRedSensei" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest" />
       <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
-      <item itemvalue="JUnit.ContainerTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
-        <item itemvalue="JUnit.ContainerTest" />
-        <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess10Times1KCreations" />
-        <item itemvalue="JUnit.StaticCardFactoryTest" />
-        <item itemvalue="JUnit.StaticCardFactoryTest.eachCardMadeIsUnique" />
+        <item itemvalue="JUnit.StaticPieceFactoryTest" />
+        <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+        <item itemvalue="JUnit.StaticPieceFactoryTest.willCreateOneRedSensei" />
+        <item itemvalue="JUnit.StaticPieceFactoryTest.createsOneBlueSensei" />
       </list>
     </recent_temporary>
   </component>
@@ -834,34 +826,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NonConcurrentCardFactoryTest_eachCardMadeIsUnique - 2018.06.01 at 22h 42m 18s.xml">
-      <configuration name="NonConcurrentCardFactoryTest.eachCardMadeIsUnique" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_willCreateFourBlueStudents - 2018.06.02 at 02h 46m 52s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.willCreateFourBlueStudents" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentCardFactoryTest_eachCardMadeIsUnique - 2018.06.01 at 22h 43m 11s.xml">
-      <configuration name="NonConcurrentCardFactoryTest.eachCardMadeIsUnique" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith10PiecesInStandardMode - 2018.06.02 at 02h 46m 59s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith10PiecesInStandardMode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentCardFactoryTest - 2018.06.01 at 22h 52m 30s.xml">
-      <configuration name="NonConcurrentCardFactoryTest" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith10PiecesInStandardMode - 2018.06.02 at 02h 47m 18s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith10PiecesInStandardMode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentCardFactoryTest_testingTimeToProcess10Times1KCreations - 2018.06.01 at 22h 59m 35s.xml">
-      <configuration name="NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith5BluePiecesInStandardMode - 2018.06.02 at 02h 47m 22s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith5BluePiecesInStandardMode" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NonConcurrentCardFactoryTest_testingTimeToProcess10Times1KCreations - 2018.06.01 at 23h 00m 19s.xml">
-      <configuration name="NonConcurrentCardFactoryTest.testingTimeToProcess10Times1KCreations" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_createsOneBlueSensei - 2018.06.02 at 02h 48m 10s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.createsOneBlueSensei" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 00h 10m 59s.xml">
-      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_willCreateOneRedSensei - 2018.06.02 at 02h 50m 29s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.willCreateOneRedSensei" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 00h 53m 27s.xml">
-      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.06.02 at 02h 50m 55s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 00h 54m 31s.xml">
-      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.06.02 at 02h 51m 06s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 01h 20m 03s.xml">
-      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
+    <history-entry file="NonConcurrentPieceFactoryTest - 2018.06.02 at 02h 51m 47s.xml">
+      <configuration name="NonConcurrentPieceFactoryTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 01h 33m 15s.xml">
+    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 02h 51m 57s.xml">
       <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -877,12 +869,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -890,13 +882,34 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="1" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32900432" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32756132" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1212,9 +1225,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1232,13 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/ICreate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -1253,16 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1315,36 +1308,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/NonConcurrentPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PiecesBoxTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PiecesBoxTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/models/pieces/PiecesBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1367,18 +1331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Deck.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="9" selection-start-line="9" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/cards/Deck.java" />
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/containersTest/ContainerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1389,9 +1342,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/ICreate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/models/containers/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="9" selection-start-line="9" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="237">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1403,14 +1387,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/containers/Container.java">
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="-348">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#979#980#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
