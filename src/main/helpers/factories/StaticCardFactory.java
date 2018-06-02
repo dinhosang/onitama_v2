@@ -9,7 +9,7 @@ import models.cards.individualCards.*;
 import java.util.ArrayList;
 import java.util.concurrent.ThreadLocalRandom;
 
-public class StaticCardFactory implements ICreate {
+public final class StaticCardFactory implements ICreate {
 
     public static void createItems(GameMode mode, IContain deck) {
 
