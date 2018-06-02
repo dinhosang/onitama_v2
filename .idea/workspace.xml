@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" afterDir="false" />
->>>>>>> develop
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -25,79 +21,16 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="StaticCardFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
+    <leaf>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-206">
-              <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-=======
-      <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
->>>>>>> develop
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="StaticCardFactoryTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-=======
-      <file leaf-file-name="StaticPieceFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
->>>>>>> develop
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-=======
-      <file leaf-file-name="convertMoves.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/convertMoves.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticCardFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
->>>>>>> develop
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -457,12 +390,7 @@
         <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" />
-=======
         <option value="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" />
->>>>>>> develop
       </list>
     </option>
   </component>
@@ -478,8 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -490,6 +416,11 @@
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -497,35 +428,6 @@
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="constants" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
-              <item name="factories" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -540,46 +442,13 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="helpersTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="cardsTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="containersTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="piecesTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,7 +480,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StaticCardFactoryTest">
+  <component name="RunManager" selected="JUnit.All in OnitamaJavaVersion_test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -771,8 +640,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StaticCardFactoryTest" />
         <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
+        <item itemvalue="JUnit.StaticCardFactoryTest" />
         <item itemvalue="JUnit.StaticPieceFactoryTest" />
         <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
         <item itemvalue="JUnit.StaticPieceFactoryTest.willCreateOneRedSensei" />
@@ -820,40 +689,34 @@
     <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 02h 51m 57s.xml">
       <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
     </history-entry>
-<<<<<<< HEAD
-    <history-entry file="StaticCardFactoryTest - 2018.06.02 at 03h 19m 41s.xml">
-      <configuration name="StaticCardFactoryTest" configurationId="JUnit" />
-=======
     <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 03h 05m 45s.xml">
       <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
->>>>>>> develop
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32756132" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Gradle" order="1" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.062592044" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -861,27 +724,27 @@
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32900432" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
+      <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32756132" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -893,40 +756,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1712#1713#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-            <element signature="e#1898#1899#0" expanded="true" />
-            <element signature="e#2157#2158#0" expanded="true" />
-            <element signature="e#2225#2226#0" expanded="true" />
-            <element signature="e#2286#2287#0" expanded="true" />
-            <element signature="e#2351#2352#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -941,9 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="1" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -961,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -971,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,9 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -991,9 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1011,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="36" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,9 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,9 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
           <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,9 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="40" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,9 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,22 +865,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="44" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Monkey.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1094,40 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="method#frogHasNameFrogAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#frogHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#cobraHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#cobraHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#roosterHasNameCobraAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#roosterHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#mnHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#mantisHasFourSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#HorseHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#HorseHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#elephantHasNameRoosterAndFactionRed#0;class#individualCardsTest#0" />
-            <element signature="method#elephantHasFourSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#roostserHasNameRoosterAndFactionRed#2;class#individualCardsTest#0" />
-            <element signature="method#boarHasFourSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#rooastserHasNameRoosterAndFactionRed#1;class#individualCardsTest#0" />
-            <element signature="method#dragonHasFourSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#otigerHasNameTigerAndFactionBlue#0;class#individualCardsTest#0" />
-            <element signature="method#otigerHasFourSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#otigerHasNameTigerAndFactionBlue#1;class#individualCardsTest#0" />
-            <element signature="method#crabHasThreeSpecificMoves#0;class#individualCardsTest#0" />
-            <element signature="method#oxHasNameTigerAndFactionBlue#0;class#individualCardsTest#0" />
-            <element signature="method#otigerHasFourSpecificMoves#2;class#individualCardsTest#0" />
-            <element signature="e#12449#12631#0" />
-            <element signature="e#12595#13222#0" />
-            <element signature="e#13381#13568#0" />
-            <element signature="e#13577#14202#0" />
-            <element signature="e#14327#14511#0" />
-            <element signature="e#14286#14914#0" />
-            <element signature="e#15454#15643#0" />
-            <element signature="e#15655#16282#0" />
-            <element signature="e#16451#16634#0" />
-            <element signature="e#16652#17279#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1135,9 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="21" selection-start-line="21" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1152,9 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1169,10 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,9 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1207,14 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,13 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1281,15 +1011,10 @@
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-=======
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Boar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="37" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,50 +1022,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
->>>>>>> develop
     <entry file="file://$PROJECT_DIR$/src/main/models/containers/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/main/models/pieces/Piece.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/pieces/individualPieces/BlueSensei.java">
->>>>>>> develop
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1348,9 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,23 +1057,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="399">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-=======
         <state relative-caret-position="240">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1382,10 +1071,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
->>>>>>> develop
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,9 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="84" lean-forward="true" selection-start-line="9" selection-start-column="84" selection-end-line="9" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1403,9 +1085,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-206">
           <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1413,12 +1092,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
