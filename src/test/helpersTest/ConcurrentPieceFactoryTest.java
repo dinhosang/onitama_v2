@@ -32,7 +32,10 @@ public class ConcurrentPieceFactoryTest {
     }
 
     @Test
-    public void consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K(){
+    public void consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K(){
+
+        System.out.println("--- Concurrent Piece Factory - 120K Pieces");
+
         factoryNC.setFactory(GameMode.TESTSTANDARD, piecesContainer);
 
         factoryNC.createPieces();
@@ -47,7 +50,10 @@ public class ConcurrentPieceFactoryTest {
         factoryNC.createPieces();
         factoryNC.createPieces();
 
-        assertEquals(50000, piecesContainer.get(PieceFaction.BLUE).size());
+        factoryNC.createPieces();
+        factoryNC.createPieces();
+
+        assertEquals(60000, piecesContainer.get(PieceFaction.BLUE).size());
     }
 
     @Test

@@ -154,7 +154,16 @@ public class StaticPieceFactoryTest {
     }
 
     @Test
-    public void consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K(){
+    public void consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K(){
+
+        System.out.println("--- Static Piece Factory - 120K Pieces");
+
+        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+
         StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
         StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
         StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
@@ -163,11 +172,8 @@ public class StaticPieceFactoryTest {
 
         StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
         StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
 
 
-        assertEquals(100000, this.secondMockPieceContainer.getSize());
+        assertEquals(120000, this.secondMockPieceContainer.getSize());
     }
 }

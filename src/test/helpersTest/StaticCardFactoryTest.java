@@ -90,7 +90,16 @@ public class StaticCardFactoryTest {
     }
 
     @Test
-    public void testingTimeToProcess10Times1KCreations() {
+    public void testingTimeToProcess20Times1KCreations() {
+
+        System.out.println("--- Static Card Factory - 120K Cards");
+
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
@@ -103,7 +112,13 @@ public class StaticCardFactoryTest {
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        assertEquals(60000, this.mockDeck.getSize());
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+
+        assertEquals(120000, this.mockDeck.getSize());
     }
 
 

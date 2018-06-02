@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9405b873-bda3-4b32-a95c-880e13e35c2c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -21,12 +22,54 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ConcurrentPieceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="-333">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticPieceFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticCardFactoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentPieceFactoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StaticPieceFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -341,7 +384,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/factories/ConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java" />
         <option value="$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java" />
         <option value="$PROJECT_DIR$/src/main/constants/CoordinateAxis.java" />
@@ -370,7 +412,6 @@
         <option value="$PROJECT_DIR$/src/main/factories/NonConcurrentPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/models/cards/Card.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/NonConcurrentCardFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/constants/GameMode.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/ICreate.java" />
         <option value="$PROJECT_DIR$/src/test/helpersTest/NonConcurrentCardFactoryTest.java" />
@@ -391,6 +432,9 @@
         <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticCardFactory.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java" />
         <option value="$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java" />
       </list>
     </option>
   </component>
@@ -406,17 +450,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
-              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
@@ -433,6 +474,21 @@
               <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
               <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -442,13 +498,18 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="helpersTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="OnitamaJavaVersion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="onitamaJavaVersion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="modelsTest" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,7 +562,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StaticCardFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OnitamaJavaVersion_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helpersTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="helpersTest" />
+      <option name="MAIN_CLASS_NAME" value="helpersTest.ConcurrentPieceFactoryTest" />
+      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StaticCardFactoryTest.testingTimeToProcess20Times1KCreations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -513,8 +597,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
       <option name="MAIN_CLASS_NAME" value="helpersTest.StaticCardFactoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testingTimeToProcess20Times1KCreations" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -524,7 +608,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="StaticPieceFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StaticPieceFactoryTest.consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OnitamaJavaVersion_test" />
       <extension name="coverage">
         <pattern>
@@ -536,8 +620,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="helpersTest" />
       <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -560,29 +644,6 @@
       <option name="PACKAGE_NAME" value="helpersTest" />
       <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
       <option name="METHOD_NAME" value="consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="StaticPieceFactoryTest.willCreateOneRedSensei" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OnitamaJavaVersion_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helpersTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="helpersTest" />
-      <option name="MAIN_CLASS_NAME" value="helpersTest.StaticPieceFactoryTest" />
-      <option name="METHOD_NAME" value="willCreateOneRedSensei" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -632,19 +693,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StaticPieceFactoryTest.willCreateOneRedSensei" />
-      <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
-      <item itemvalue="JUnit.StaticPieceFactoryTest" />
       <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
-      <item itemvalue="JUnit.StaticCardFactoryTest" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K" />
+      <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess20Times1KCreations" />
+      <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
+      <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in OnitamaJavaVersion_test" />
-        <item itemvalue="JUnit.StaticCardFactoryTest" />
-        <item itemvalue="JUnit.StaticPieceFactoryTest" />
+        <item itemvalue="JUnit.ConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K" />
+        <item itemvalue="JUnit.StaticCardFactoryTest.testingTimeToProcess20Times1KCreations" />
         <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" />
-        <item itemvalue="JUnit.StaticPieceFactoryTest.willCreateOneRedSensei" />
+        <item itemvalue="JUnit.StaticPieceFactoryTest.consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K" />
       </list>
     </recent_temporary>
   </component>
@@ -662,21 +723,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith10PiecesInStandardMode - 2018.06.02 at 02h 46m 59s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith10PiecesInStandardMode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith10PiecesInStandardMode - 2018.06.02 at 02h 47m 18s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith10PiecesInStandardMode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_willFillPiecesContainerWith5BluePiecesInStandardMode - 2018.06.02 at 02h 47m 22s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.willFillPiecesContainerWith5BluePiecesInStandardMode" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_createsOneBlueSensei - 2018.06.02 at 02h 48m 10s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.createsOneBlueSensei" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NonConcurrentPieceFactoryTest_willCreateOneRedSensei - 2018.06.02 at 02h 50m 29s.xml">
-      <configuration name="NonConcurrentPieceFactoryTest.willCreateOneRedSensei" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NonConcurrentPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.06.02 at 02h 50m 55s.xml">
       <configuration name="NonConcurrentPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
     </history-entry>
@@ -692,59 +738,54 @@
     <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 03h 05m 45s.xml">
       <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_OnitamaJavaVersion_test - 2018.06.02 at 23h 25m 37s.xml">
+      <configuration name="All in OnitamaJavaVersion_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StaticPieceFactoryTest_consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K - 2018.06.02 at 23h 58m 29s.xml">
+      <configuration name="StaticPieceFactoryTest.consoleLogTimeTakenToProcess100KRequestsOver10AttemptsOf10K" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StaticCardFactoryTest_testingTimeToProcess20Times1KCreations - 2018.06.03 at 00h 00m 21s.xml">
+      <configuration name="StaticCardFactoryTest.testingTimeToProcess20Times1KCreations" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StaticPieceFactoryTest_consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K - 2018.06.03 at 00h 00m 50s.xml">
+      <configuration name="StaticPieceFactoryTest.consoleLogTimeTakenToProcess10KRequestsOver10AttemptsOf1K" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StaticCardFactoryTest_testingTimeToProcess20Times1KCreations - 2018.06.03 at 00h 01m 08s.xml">
+      <configuration name="StaticCardFactoryTest.testingTimeToProcess20Times1KCreations" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="767" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.062592044" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Gradle" order="1" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.23376623" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32756132" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32985073" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.23283581" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2533137" />
+      <window_info anchor="right" id="Gradle" order="1" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="3" weight="0.32900432" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32756132" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32900432" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -756,27 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceSubClassesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="41" column="51" lean-forward="true" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/modelsTest/piecesTest/PieceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Frog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="1" selection-start-line="12" selection-start-column="3" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/models/cards/individualCards/Mantis.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -870,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        <state relative-caret-position="-406">
+          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -900,13 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -945,13 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1060,20 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/helpers/convertMoves.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1088,10 +1080,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/LICENSE.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/org/hamcrest/StringDescription.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/ConcurrentPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/helpers/factories/StaticPieceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticCardFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="49">
+          <caret line="94" column="65" selection-start-line="94" selection-start-column="65" selection-end-line="94" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/StaticPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="158" column="8" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/helpersTest/ConcurrentPieceFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
