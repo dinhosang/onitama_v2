@@ -2,9 +2,12 @@ package helpersTest;
 
 import constants.GameMode;
 import helpers.IContain;
+
 import helpers.IHeld;
 import helpers.factories.StaticCardFactory;
+
 import models.cards.Card;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -55,7 +58,7 @@ public class StaticCardFactoryTest {
     public void fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame() {
         StaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
 
-        assertEquals(5, this.mockDeck.getSize());
+        assertEquals(6, this.mockDeck.getSize());
     }
 
     @Test
@@ -67,10 +70,11 @@ public class StaticCardFactoryTest {
         Card card3 = (Card) this.mockDeck.getItem();
         Card card4 = (Card) this.mockDeck.getItem();
         Card card5 = (Card) this.mockDeck.getItem();
+        Card card6 = (Card) this.mockDeck.getItem();
 
         Boolean cardsAreNotUnique = false;
 
-        ArrayList<Card> cards = new ArrayList<>(Arrays.asList(card1, card2, card3, card4, card5));
+        ArrayList<Card> cards = new ArrayList<>(Arrays.asList(card1, card2, card3, card4, card5, card6));
         for(Card card : cards){
             Boolean cardMatchesItself = false;
             for(int cardIndexToCheckAgainst = 0; cardIndexToCheckAgainst < cards.size(); cardIndexToCheckAgainst++){
@@ -99,7 +103,7 @@ public class StaticCardFactoryTest {
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
         StaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        assertEquals(50000, this.mockDeck.getSize());
+        assertEquals(60000, this.mockDeck.getSize());
     }
 
 

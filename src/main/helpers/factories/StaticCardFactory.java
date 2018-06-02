@@ -42,7 +42,7 @@ public class StaticCardFactory implements ICreate {
         .distinct() returns unique values, .limit(int) returns that number of values
         the .forEach determines what to do with each value */
 
-        ThreadLocalRandom.current().ints(0,19).distinct().limit(5).forEach(
+        ThreadLocalRandom.current().ints(0,19).distinct().limit(6).forEach(
                 randomNumbersListToCreateCardsBy::add);
 
         for(Integer number : randomNumbersListToCreateCardsBy){
