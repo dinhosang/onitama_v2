@@ -1,27 +1,20 @@
 package modelsTest.cardsTest;
 
-import constants.CoordinateAxis;
-import constants.PieceFaction;
 import helpers.IHeld;
-import models.cards.Card;
 import models.cards.Deck;
 import org.junit.Before;
 import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
 public class DeckTest {
 
-    Deck deck;
+    private Deck deck;
 
-    IHeld mockCard1;
-    IHeld mockCard2;
-    IHeld mockCard3;
+    private IHeld mockCard1;
+    private IHeld mockCard2;
+    private IHeld mockCard3;
 
     @Before
     public void before() {
@@ -29,7 +22,7 @@ public class DeckTest {
 
         class MockIHeld implements IHeld {
 
-            public MockIHeld() {}
+            private MockIHeld() {}
         }
 
         this.mockCard1 = new MockIHeld();
