@@ -1,7 +1,7 @@
 package helpers.factories;
 
 import constants.GameMode;
-import helpers.IContainer;
+import helpers.IContain;
 import helpers.ICreate;
 import models.cards.Card;
 import models.cards.individualCards.*;
@@ -11,7 +11,7 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class StaticCardFactory implements ICreate {
 
-    public static void createItems(GameMode mode, IContainer deck) {
+    public static void createItems(GameMode mode, IContain deck) {
 
         if(mode.equals(GameMode.STANDARD)){
             setupStandardModeCardCreation(deck);
@@ -29,7 +29,7 @@ public class StaticCardFactory implements ICreate {
         }
     }
 
-    private static void setupStandardModeCardCreation(IContainer deck) {
+    private static void setupStandardModeCardCreation(IContain deck) {
         ArrayList<Integer> randomNumbersListToCreateCardsBy = new ArrayList<>();
 
 //        ThreadLocalRandom.current().ints(0,19).distinct().limit(5).forEach(
@@ -50,7 +50,7 @@ public class StaticCardFactory implements ICreate {
         }
     }
 
-    private static void createCard(IContainer deck, Integer number) {
+    private static void createCard(IContain deck, Integer number) {
 
         Card card;
 

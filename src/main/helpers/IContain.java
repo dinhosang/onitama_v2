@@ -1,6 +1,6 @@
 package helpers;
 
-public interface IContainer {
+public interface IContain {
 
     void addItem(IHeld item);
 

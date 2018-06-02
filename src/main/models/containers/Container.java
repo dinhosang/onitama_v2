@@ -1,30 +1,30 @@
-package models.cards;
+package models.containers;
 
-import helpers.IContainer;
+import helpers.IContain;
 import helpers.IHeld;
 
 import java.util.ArrayList;
 
-public class Deck implements IContainer {
+public class Container implements IContain {
 
-    private ArrayList<IHeld> cards;
+    private ArrayList<IHeld> items;
 
-    public Deck(){
-        this.cards = new ArrayList<>();
+    public Container(){
+        this.items = new ArrayList<>();
     }
 
     @Override
     public void addItem(IHeld item) {
-        cards.add(item);
+        items.add(item);
     }
 
     public int getSize() {
-        return cards.size();
+        return items.size();
     }
 
     public IHeld getItem() throws IndexOutOfBoundsException {
         try {
-            return this.cards.remove(0);
+            return this.items.remove(0);
         } catch (IndexOutOfBoundsException e) {
             throw e;
         }

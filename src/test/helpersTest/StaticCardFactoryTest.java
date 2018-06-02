@@ -1,7 +1,7 @@
 package helpersTest;
 
 import constants.GameMode;
-import helpers.IContainer;
+import helpers.IContain;
 import helpers.IHeld;
 import helpers.factories.StaticCardFactory;
 import models.cards.Card;
@@ -15,13 +15,13 @@ import static org.junit.Assert.assertEquals;
 
 public class StaticCardFactoryTest {
 
-    IContainer mockDeck;
+    IContain mockDeck;
 
     @Before
     public void before() {
 
 
-        class MockDeck implements IContainer {
+        class MockDeck implements IContain {
 
             private ArrayList<IHeld> cards;
 
@@ -30,12 +30,8 @@ public class StaticCardFactoryTest {
             }
 
             @Override
-            public void addItem(IHeld item) throws IllegalArgumentException {
-                if (item instanceof Card) {
-                    cards.add(item);
-                } else {
-                    throw new IllegalArgumentException("Wrong item passed through to Deck instance - non-Card item");
-                }
+            public void addItem(IHeld item) {
+                cards.add(item);
             }
 
             public int getSize() {

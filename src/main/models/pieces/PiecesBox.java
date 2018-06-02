@@ -1,12 +1,12 @@
 package models.pieces;
 
-import helpers.IContainer;
+import helpers.IContain;
 import helpers.IHeld;
 
 import java.util.ArrayList;
 
 
-public class PiecesBox implements IContainer {
+public class PiecesBox implements IContain {
 
 
     private ArrayList<IHeld> pieces;

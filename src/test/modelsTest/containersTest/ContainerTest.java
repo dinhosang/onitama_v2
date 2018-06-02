@@ -1,16 +1,16 @@
-package modelsTest.cardsTest;
+package modelsTest.containersTest;
 
 import helpers.IHeld;
-import models.cards.Deck;
+import models.containers.Container;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
-public class DeckTest {
+public class ContainerTest {
 
-    private Deck deck;
+    private Container deck;
 
     private IHeld mockCard1;
     private IHeld mockCard2;
@@ -18,7 +18,7 @@ public class DeckTest {
 
     @Before
     public void before() {
-        this.deck = new Deck();
+        this.deck = new Container();
 
         class MockIHeld implements IHeld {
 
@@ -46,7 +46,7 @@ public class DeckTest {
     public void deckWillRemoveAndReturnHeldCardsFirstInFirstOut() {
         this.deck.addItem(this.mockCard1);
         this.deck.addItem(this.mockCard2);
-        this.deck.addItem(this.mockCard2);
+        this.deck.addItem(this.mockCard3);
 
         assertEquals(3, this.deck.getSize());
 
