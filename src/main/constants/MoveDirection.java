@@ -1,6 +1,6 @@
 package constants;
 
-public enum moveDirection {
+public enum MoveDirection {
 
     UP(1),
     RIGHT(1),
@@ -9,7 +9,7 @@ public enum moveDirection {
 
     private final int value;
 
-    moveDirection(int value) {
+    MoveDirection(int value) {
         this.value = value;
     }
 

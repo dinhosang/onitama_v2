@@ -14,7 +14,7 @@ import models.pieces.individualPieces.RedSensei;
 import models.pieces.individualPieces.RedStudent;
 
 
-public class StaticPieceFactory implements ICreate {
+public final class StaticPieceFactory implements ICreate {
 
     public static void createItems(GameMode mode, IContain pieceBox) {
 
