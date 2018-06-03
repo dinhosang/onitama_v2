@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 import static org.junit.Assert.assertEquals;
 
-public class ConcurrentByEachCardStaticCardFactoryTest {
+public class ConcurrentStaticCardFactoryTest {
 
     IContain mockDeck;
 
@@ -89,7 +89,7 @@ public class ConcurrentByEachCardStaticCardFactoryTest {
     @Test
     public void testingTimeToProcess20Times1KCreations() {
 
-        System.out.println("--- Concurrent By Each Card Static Card Factory - 120K Cards");
+        System.out.println("--- Concurrent By Complete Deck Static Card Factory - 120K Cards");
 
         ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
         ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
@@ -117,6 +117,7 @@ public class ConcurrentByEachCardStaticCardFactoryTest {
 
         assertEquals(120000, this.mockDeck.getSize());
     }
+
 
 
 }
