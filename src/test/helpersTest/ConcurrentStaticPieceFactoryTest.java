@@ -6,7 +6,7 @@ import constants.PieceType;
 
 import helpers.IContain;
 import helpers.IHeld;
-import helpers.factories.StaticPieceFactory;
+import helpers.factories.ConcurrentStaticPieceFactory;
 
 import models.pieces.*;
 
@@ -15,10 +15,10 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+
 import static org.junit.Assert.assertEquals;
 
-public class StaticPieceFactoryTest {
-
+public class ConcurrentStaticPieceFactoryTest {
 
     private IContain secondMockPieceContainer;
     private ArrayList<Piece> allPieces;
@@ -28,24 +28,24 @@ public class StaticPieceFactoryTest {
 
         class MockPieceContainer implements IContain {
 
-            private ArrayList<IHeld> items;
+            private ArrayList<IHeld> pieces;
 
             private MockPieceContainer(){
-                this.items = new ArrayList<>();
+                this.pieces = new ArrayList<>();
             }
 
             @Override
             public void addItem(IHeld item) {
-                items.add(item);
+                pieces.add(item);
             }
 
             public int getSize() {
-                return items.size();
+                return pieces.size();
             }
 
             public IHeld getItem() throws IndexOutOfBoundsException {
                 try {
-                    return this.items.remove(0);
+                    return this.pieces.remove(0);
                 } catch (IndexOutOfBoundsException e) {
                     throw e;
                 }
@@ -56,7 +56,7 @@ public class StaticPieceFactoryTest {
         IContain mockPieceContainer     = new MockPieceContainer();
         this.secondMockPieceContainer   = new MockPieceContainer();
 
-        StaticPieceFactory.createItems(GameMode.STANDARD, mockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.STANDARD, mockPieceContainer);
 
         this.allPieces = new ArrayList<>();
         int numberOfPiecesGrabbed = 0;
@@ -69,7 +69,7 @@ public class StaticPieceFactoryTest {
 
     @Test
     public void willFillPiecesContainerWith10PiecesInStandardMode() {
-        StaticPieceFactory.createItems(GameMode.STANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.STANDARD, this.secondMockPieceContainer);
         assertEquals(10, this.secondMockPieceContainer.getSize());
     }
 
@@ -155,24 +155,26 @@ public class StaticPieceFactoryTest {
     @Test
     public void consoleLogTimeTakenToProcess12KRequestsOver12AttemptsOf1K(){
 
-        System.out.println("--- Static Piece Factory - 120K Pieces");
+        System.out.println("--- Concurrent Static Piece Factory - 120K Pieces");
 
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
 
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
 
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
-        StaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
+        ConcurrentStaticPieceFactory.createItems(GameMode.TESTSTANDARD, this.secondMockPieceContainer);
 
 
         assertEquals(120000, this.secondMockPieceContainer.getSize());
     }
+
+
 }
