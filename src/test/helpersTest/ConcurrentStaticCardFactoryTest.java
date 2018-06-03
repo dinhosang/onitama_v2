@@ -3,7 +3,7 @@ package helpersTest;
 import constants.GameMode;
 import helpers.IContain;
 import helpers.IHeld;
-import helpers.factories.ConcurrentByEachCardStaticCardFactory;
+import helpers.factories.ConcurrentStaticCardFactory;
 import models.cards.Card;
 import org.junit.Before;
 import org.junit.Test;
@@ -53,14 +53,14 @@ public class ConcurrentStaticCardFactoryTest {
 
     @Test
     public void fiveCardsWillBeMadeByNCCardFactoryForStandardModeGame() {
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
-
+        ConcurrentStaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
+        
         assertEquals(6, this.mockDeck.getSize());
     }
 
     @Test
     public void eachCardMadeIsUnique() {
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.STANDARD, this.mockDeck);
 
         Card card1 = (Card) this.mockDeck.getItem();
         Card card2 = (Card) this.mockDeck.getItem();
@@ -91,29 +91,29 @@ public class ConcurrentStaticCardFactoryTest {
 
         System.out.println("--- Concurrent By Complete Deck Static Card Factory - 120K Cards");
 
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
-        ConcurrentByEachCardStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
+        ConcurrentStaticCardFactory.createItems(GameMode.TESTSTANDARD, this.mockDeck);
 
         assertEquals(120000, this.mockDeck.getSize());
     }

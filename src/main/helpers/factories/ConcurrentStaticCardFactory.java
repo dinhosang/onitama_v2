@@ -2,6 +2,7 @@ package helpers.factories;
 
 import constants.GameMode;
 import helpers.IContain;
+import helpers.ICreate;
 import models.cards.Card;
 import models.cards.individualCards.*;
 
@@ -12,7 +13,7 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class ConcurrentStaticCardFactory {
+public class ConcurrentStaticCardFactory implements ICreate {
 
     public static void createItems(GameMode mode, IContain deck) {
 
